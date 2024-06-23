@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fast Food</title>
+</head>
+<body>
+    <header>
+        <div id="navbar">
+            <div class="nav" id="navbarLeft">
+                <li><a href="Services.html">Services</a></li>
+                <li><a href="Offers.html">Offers</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </div>
+            <div class="nav" id="logo">
+                <h2> <a href="index.html">OurLocalMarket</a></h2>
+            </div>
+            <div class="nav" id="navbarRight">
+                <li><a href="/Login.html" id="login"><button>Login</button></a></li>
+                <li><a href="/SignUp.html"><button>SignUp</button></a></li>
+                <li><a href=""><img src="img/logo/cart.png" alt="cart" width="40px"></a></li>
+            </div>
+        </div>
+        <link rel="stylesheet" href="css/utils.css">
+        <link rel="stylesheet" href="css/fastfood.css">
+    </header>
+<!-- ------------------------------------------------------------------------------------------------------>
+
+
+
+    <section>
+        <div id="banner">
+            <div id="sub_banner">
+                <h1>Fast Food</h1>
+                <form action="">
+                    <input type="search" placeholder="Search....." name="search" id="searchbar">
+                    <button type="submit"><img src="img/logo/search.png" alt="noon" height="30" width="30"></button>
+                </form>
+            </div>
+            <div id="categories">
+                <a href="#product1">
+                    <div class="cateogry">Apollo's Moxie</div>
+                </a>
+                <a href="#product2">
+                    <div class="cateogry">H-9 Canteen</div>
+                </a>
+                <a href="#product3">
+                    <div class="cateogry">Maggie Hotspot</div>
+                </a>
+                <a href="#product4">
+                    <div class="cateogry">NIT MARKET</div>
+                </a>
+                <a href="#product5">
+                    <div class="cateogry">Suraj Bhojnalaya</div>
+                </a>
+                
+            </div>
+        </div>
+
+        <div id="products1" class="allProducts">
+            <div class="productHeading">
+                Apollo's Moxie
+            </div>
+            <div class="productsList" id="productList1">
+                <ul>
+                    <li>
+                        <h1>Burger</h1>
+                        <a href="">
+                            <img src="img/fastfood/moxie/burger.png" alt="image to be included" height="120px">
+                        </a>
+                        <p>&#8377 30</p>
+                        <button id="addBtn" class="cartBtn" onclick="firstAddition()">Add +</button>
+                    </li>
+                    <li>
+                        <h1>Sandwich</h1>
+                        <a href="">
+                            <img src="img/fastfood/moxie/sandwich.png"  alt="image to be included" height="120px">
+                        </a>
+                        <p>&#8377 25</p>
+                        <button id="addBtn" class="cartBtn" onclick="">Add +</button>
+                    </li>
+                    <li>
+                        <h1>Steam Momos</h1>
+                        <a href="">
+                            <img src="img/fastfood/moxie/momos.png" alt="image to be included" height="120px">
+                        </a>
+                        <p>&#8377 60</p>
+                        <button id="addBtn" class="cartBtn" onclick="">Add +</button>
+                    </li>
+                    <li>
+                        <h1>White Pasta</h1>
+                        <a href="">
+                            <img src="img/fastfood/moxie/pasta.png" alt="image to be included" height="120px">
+                        </a>
+                        <p>&#8377 50</p>
+                        <button id="addBtn" class="cartBtn" onclick="">Add +</button>
+                    </li>
+                    <li>
+                        <h1>Cold Coffee</h1>
+                        <a href="">
+                            <img src="img/fastfood/moxie/cold coffeee.png" alt="image to be included" height="120px">
+                        </a>
+                        <p>&#8377 40</p>
+                        <button id="addBtn" class="cartBtn" onclick="">Add +</button>
+                    </li>
+                    <li>
+                        <h1>Spring Roll</h1>
+                        <a href="">
+                            <img src="img/fastfood/moxie/spring roll.png" alt="image to be included" height="120px">
+                        </a>
+                        <p>&#8377 50</p>
+                        <button id="addBtn" class="cartBtn" onclick="">Add +</button>
+                    </li>
+                    <li>
+                        <h1>Kachori</h1>
+                        <a href="">
+                            <img src="img/fastfood/moxie/kachori.png" alt="image to be included" height="120px">
+                        </a>
+                        <p>&#8377 15</p>
+                        <button id="addBtn" class="cartBtn" onclick="">Add +</button>
+                    </li>
+                    <li>
+                        <h1>Samosa</h1>
+                        <a href="">
+                            <img src="img/fastfood/moxie/samosa.png" alt="image to be included" height="120px">
+                        </a>
+                        <p>&#8377 15</p>
+                        <button id="addBtn" class="cartBtn" onclick="">Add +</button>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+        <div id="product2" class="allProducts">
+            <div class="productHeading">
+                H-9 Canteen
+            </div>
+            <div class="productsList" id="productList1">
+                <ul>
+                    <li>
+                        <h1>Chowmein</h1>
+                        <a href="">
+                            <img src="img/fastfood/H-9/chowmein.png" alt="image to be included" height="120px">
+                        </a>
+                        <p>&#8377 50</p>
+                        <button id="addBtn" class="cartBtn" onclick="">Add +</button>
+                    </li>
+                    <li>
+                        <h1>Bread Pakora</h1>
+                        <a href="">
+                            <img src="img/fastfood/H-9/breadpakora.png" alt="image to be included" height="120px">
+                        </a>
+                        <p>&#8377 15</p>
+                        <button id="addBtn" class="cartBtn" onclick="">Add +</button>
+                    </li>
+                    <li>
+                        <h1>Spring Roll</h1>
+                        <a href="">
+                            <img src="img/fastfood/H-9/spring roll.png" alt="image to be included" height="120px">
+                        </a>
+                        <p>&#8377 50</p>
+                        <button id="addBtn" class="cartBtn" onclick="">Add +</button>
+                    </li>
+                    <li>
+                        <h1>Maggie</h1>
+                        <a href="">
+                            <img src="img/fastfood/H-9/maggie.png" alt="image to be included" height="120px">
+                        </a>
+                        <p>&#8377 30</p>
+                        <button id="addBtn" class="cartBtn" onclick="">Add +</button>
+                    </li>
+                    <li>
+                        <h1>Omelette</h1>
+                        <a href="">
+                            <img src="img/fastfood/H-9/omlette.png" alt="image to be included" height="120px">
+                        </a>
+                        <p>&#8377 30</p>
+                        <button id="addBtn" class="cartBtn" onclick="">Add +</button>
+                    </li>
+                    <li>
+                        <h1>Chily Potato</h1>
+                        <a href="">
+                            <img src="img/fastfood/H-9/chily potato.png" alt="image to be included" height="120px">
+                        </a>
+                        <p>&#8377 150</p>
+                        <button id="addBtn" class="cartBtn" onclick="">Add +</button>
+                    </li>
+                    <li>
+                        <h1>Mix Pakore</h1>
+                        <a href="">
+                            <img src='img/fastfood/H-9/mix pakore.png' alt="image to be included" height="120px">
+                        </a>
+                        <p>&#8377 90</p>
+                        <button id="addBtn" class="cartBtn" onclick="">Add +</button>
+                    </li>
+                    <li>
+                        <h1>Cold-Drink</h1>
+                        <a href="">
+                            <img src="img/fastfood/H-9/cold drink.png" alt="image to be included" height="120px">
+                        </a>
+                        <p>&#8377 55</p>
+                        <button id="addBtn" class="cartBtn" onclick="">Add +</button>
+                    </li>
+                 
+                </ul>
+            </div>
+        </div>
+        <div id="product3" class="allProducts">
+            <div class="productHeading">
+                NIT Maggie Hotspot
+            </div>
+            <div class="productsList" id="productList1">
+                <ul>
+                    <li>
+                        <h1>Veg Burger</h1>
+                        <a href="">
+                            <img src="img/fastfood/nit maggie/burger.png" alt="image to be included" height="120px">
+                        </a>
+                        <p>&#8377 55</p>
+                        <button id="addBtn" class="cartBtn" onclick="">Add +</button>
+                    </li>
+                    <li>
+                        <h1>Corn Sandwich</h1>
+                        <a href="">
+                            <img src="img/fastfood/nit maggie/corn sandwich.png" alt="image to be included" height="120px">
+                        </a>
+                        <p>&#8377 40</p>
+                        <button id="addBtn" class="cartBtn" onclick="">Add +</button>
+                    </li>
+                    <li>
+                        <h1>Veg Maggie</h1>
+                        <a href="">
+                            <img src="img/fastfood/nit maggie/veg maggie.png" alt="image to be included" height="120px">
+                        </a>
+                        <p>&#8377 40</p>
+                        <button id="addBtn" class="cartBtn" onclick="">Add +</button>
+                    </li>
+                    <li>
+                        <h1>Cheese Maggie</h1>
+                        <a href="">
+                            <img src="img/fastfood/nit maggie/cheese maggie.png" alt="image to be included" height="120px">
+                        </a>
+                        <p>&#8377 60</p>
+                        <button id="addBtn" class="cartBtn" onclick="">Add +</button>
+                    </li>
+                    <li>
+                        <h1>Cold Coffee</h1>
+                        <a href="">
+                            <img src="img/fastfood/nit maggie/cold cofee.png" alt="image to be included" height="120px">
+                        </a>
+                        <p>&#8377 90</p>
+                        <button id="addBtn" class="cartBtn" onclick="">Add +</button>
+                    </li>
+                    <li>
+                        <h1>Hot Chocolate</h1>
+                        <a href="">
+                            <img src="img/fastfood/nit maggie/hot chococlate.png" alt="image to be included" height="120px">
+                        </a>
+                        <p>&#8377 40</p>
+                        <button id="addBtn" class="cartBtn" onclick="">Add +</button>
+                    </li>
+                    <li>
+                        <h1>Cheese Sandwich</h1>
+                        <a href="">
+                            <img src="img/fastfood/nit maggie/cheese sandwich.png" alt="image to be included" height="120px">
+                        </a>
+                        <p>&#8377 55</p>
+                        <button id="addBtn" class="cartBtn" onclick="">Add +</button>
+                    </li>
+                    <li>
+                        <h1>Grilled Sandwich</h1>
+                        <a href="">
+                            <img src="img/fastfood/nit maggie/grilled.png" alt="image to be included" height="120px">
+                        </a>
+                        <p>&#8377 60</p>
+                        <button id="addBtn" class="cartBtn" onclick="">Add +</button>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+        <div id="product4" class="allProducts">
+            <div class="productHeading">
+                NIT MARKET-Shop 
+                       </div>
+            <div class="productsList" id="productList1">
+                <ul>
+                    <li>
+                        <h1>Paneer Makhni Sandwich</h1>
+                        <a href="">
+                            <img src="img/fastfood/moxie/sandwich.png" alt="image to be included" height="85px">
+                        </a>
+                        <p>&#8377 50</p>
+                        <button id="addBtn" class="cartBtn" onclick="">Add +</button>
+                    </li>
+                    <li>
+                        <h1>Mojito</h1>
+                        <a href="">
+                            <img src="img/fastfood/nit market/diy-mojito-RU186788-1-b3184133555544bbae783b67881d1400-removebg-preview.png" alt="image to be included" height="120px">
+                        </a>
+                        <p>&#8377 60</p>
+                        <button id="addBtn" class="cartBtn" onclick="">Add +</button>
+                    </li>
+                    <li>
+                        <h1>Double Decker Burger</h1>
+                        <a href="">
+                            <img src="img/fastfood/nit maggie/burger.png" alt="image to be included" height="80px">
+                        </a>
+                        <p>&#8377 60</p>
+                        <button id="addBtn" class="cartBtn" onclick="">Add +</button>
+                    </li>
+                    <li>
+                        <h1>French Fries</h1>
+                        <a href="">
+                            <img src="img/fastfood/nit market/french fies.png" alt="image to be included" height="120px">
+                        </a>
+                        <p>&#8377 80</p>
+                        <button id="addBtn" class="cartBtn" onclick="">Add +</button>
+                    </li>
+                    <li>
+                        <h1>Pizza Patties</h1>
+                        <a href="">
+                            <img src="img/fastfood/nit market/pizza patties.png" alt="image to be included" height="120px">
+                        </a>
+                        <p>&#8377 30</p>
+                        <button id="addBtn" class="cartBtn" onclick="">Add +</button>
+                    </li>
+                    <li>
+                        <h1>Aalu Tikki Sandwich</h1>
+                        <a href="">
+                            <img src="img/fastfood/nit maggie/grilled.png" alt="image to be included" height="80px">
+                        </a>
+                        <p>&#8377 60</p>
+                        <button id="addBtn" class="cartBtn" onclick="">Add +</button>
+                    </li>
+                    <li>
+                        <h1>Coffee</h1>
+                        <a href="">
+                            <img src="img/fastfood/nit market/coffee.png" alt="image to be included" height="120px">
+                        </a>
+                        <p>&#8377 30</p>
+                        <button id="addBtn" class="cartBtn" onclick="">Add +</button>
+                    </li>
+                    <li>
+                        <h1>Tea</h1>
+                        <a href="">
+                            <img src="img/fastfood/nit market/tea.png" alt="image to be included" height="120px">
+                        </a>
+                        <p>&#8377 10</p>
+                        <button id="addBtn" class="cartBtn" onclick="">Add +</button>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+        <div id="product5" class="allProducts">
+            <div class="productHeading">
+                Sharma Bhojnalaya
+            </div>
+            <div class="productsList" id="productList1">
+                <ul>
+                    <li>
+                        <h1>Shahi Paneer</h1>
+                        <a href="">
+                            <img src="img/fastfood/sharma bhojnalaya/Shahi-paneer.png" alt="image to be included" height="120px">
+                        </a>
+                        <p>&#8377 160</p>
+                        <button id="addBtn" class="cartBtn" onclick="">Add +</button>
+                    </li>
+                    <li>
+                        <h1>Butter Naan</h1>
+                        <a href="">
+                            <img src="img/fastfood/sharma bhojnalaya/butter naan.png" alt="image to be included" height="120px">
+                        </a>
+                        <p>&#8377 30</p>
+                        <button id="addBtn" class="cartBtn" onclick="">Add +</button>
+                    </li>
+                    <li>
+                        <h1>Dal Makhni</h1>
+                        <a href="">
+                            <img src="img/fastfood/sharma bhojnalaya/dal makhni.png" alt="image to be included" height="120px">
+                        </a>
+                        <p>&#8377 180</p>
+                        <button id="addBtn" class="cartBtn" onclick="">Add +</button>
+                    </li>
+                    <li>
+                        <h1>Garlic Naan</h1>
+                        <a href="">
+                            <img src="img/fastfood/sharma bhojnalaya/garlic naan.png" alt="image to be included" height="120px">
+                        </a>
+                        <p>&#8377 40</p>
+                        <button id="addBtn" class="cartBtn" onclick="">Add +</button>
+                    </li>
+                    <li>
+                        <h1>Matar Paneer</h1>
+                        <a href="">
+                            <img src="img/fastfood/sharma bhojnalaya/matar paneer.png" alt="image to be included" height="120px">
+                        </a>
+                        <p>&#8377 200</p>
+                        <button id="addBtn" class="cartBtn" onclick="">Add +</button>
+                    </li>
+                    <li>
+                        <h1>Manchurian</h1>
+                        <a href="">
+                            <img src="img/fastfood/sharma bhojnalaya/manchurian.png" alt="image to be included" height="120px">
+                        </a>
+                        <p>&#8377 300</p>
+                        <button id="addBtn" class="cartBtn" onclick="">Add +</button>
+                    </li>
+                    <li>
+                        <h1>Butter Chicken</h1>
+                        <a href="">
+                            <img src="img/fastfood/sharma bhojnalaya/butter chicken.png" alt="image to be included" height="120px">
+                        </a>
+                        <p>&#8377 400</p>
+                        <button id="addBtn" class="cartBtn" onclick="">Add +</button>
+                    </li>
+                    <li>
+                        <h1>Egg Bhurji</h1>
+                        <a href="">
+                            <img src="img/fastfood/sharma bhojnalaya/egg bhurji.png"e alt="image to be included" height="120px">
+                        </a>
+                        <p>&#8377 150</p>
+                        <button id="addBtn" class="cartBtn" onclick="">Add +</button>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+        
+    </section>
+
+
+
+<!-- ---------------------------------------------------------------------------------------------------- -->
+    <footer id="bottom">
+        <div>
+            <ul id="bottomUp">
+                <li> <a href="Terms.html">Terms</a> </li>
+                <li> <a href="Privacy.html">Privacy Policy</a> </li>
+                <li> <a href="FAQ.html">FAQ</a> </li>
+                <li> <a href="Contact.html">Contact</a> </li>
+            </ul>
+        </div>
+        <div id="bottomDown">
+            <p>OurLocalMarket &copy; is <span style="color:red"> self</span> sponsored</p>
+        </div>
+    </footer>
+</body>
+</html>
